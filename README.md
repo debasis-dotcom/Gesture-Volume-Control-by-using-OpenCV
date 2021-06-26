@@ -21,7 +21,7 @@ Here's a list of files in the directory:
 ## How to use?
 Step 1: Clone this repository on your local computer
 
-git clone https://github.com/Diwas524/Volume-Control-using-gesture.git
+git clone https://github.com/debasis-dotcom/Gesture-Volume-Control-by-using-OpenCV
 
 Step 2: Install all the requirements
 - pip install mediapipe
