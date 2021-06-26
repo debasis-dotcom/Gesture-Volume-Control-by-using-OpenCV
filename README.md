@@ -1,26 +1,36 @@
 # Gesture-Volume-Control-by-using-OpenCV
 
 ## Description
-This repository contains the Python code to develop your own hand gesture recognition system.
+In this project we are going to learn how to use Gesture Control to change the volume of a computer. We first look into hand tracking and then we will use the hand landmarks to find gesture of our hand to change the volume.
 
-The app consists of 3 different modes:
-
-Data Collection Mode: Allows the user to collect train, test, or validation data on a variety of hand gestures
-Model Testing Mode: Test the model's ability to discern between different gestures through real-time visualizations
-Music-Player/Gesture Mode: Use gestures to play music, pause music, and change the volume of music
-I presented this app as my final project for a coding bootcamp I attended. The slide deck for my presentation has been included in the repository.
+## Features
+Can change your computer's volume based on your hand activity
+Can track your hand in real-time
 
 ## Packages Used
 - OpenCV
 - Mediapipe
 - NumPy
+- pyCaw
 
 Here's a list of files in the directory:
 
-src/demo.py: Contains all the functions to start and run the app
-src/music: Contains the song that will be played during 'gesture mode'
-Presentation (Gesture Jester): Contains the slide deck for my project presentation
-Usage
+src/Gesture Volume Control.py: Contains all the module to detect the landmarks on the hand.
+src/HandTrackingModule.py: Contains the code to calculate the ditance between the thumb tip and index finger tip by recognising the landmark and based on the distnace it adjust the volume.
+
+How to use?
+Step 1: Clone this repository on your local computer
+
+git clone https://github.com/Diwas524/Volume-Control-using-gesture.git
+
+Step 2: Install all the requirements
+- pip install mediapipe
+- pip install opencv-python
+- pip install pycaw
+
+Or else if you are using pyCharm then you can directly add by going through its setting --> interpreter --> add
+
+Step 3: Run the program
 
 
 ![Demo](https://github.com/debasis-dotcom/Gesture-Volume-Control-by-using-OpenCV/blob/main/Gesture%20Volume%20Control.gif)
